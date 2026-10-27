@@ -1,0 +1,8 @@
+TSC: 2.8032 ticks/ns (2803.2 MHz)
+
+100000 samples (after 1000 warm-up)
+min          51 ticks       18.2 ns
+p50          55 ticks       19.6 ns
+p99          59 ticks       21.0 ns
+p99.9        59 ticks       21.0 ns
+max       25087 ticks     8949.4 ns

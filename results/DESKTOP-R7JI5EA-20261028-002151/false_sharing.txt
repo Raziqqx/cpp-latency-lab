@@ -1,0 +1,7 @@
+cpus 2 and 4, 50000000 increments per thread, median of 5
+
+layout     store ns/inc  vs single   rmw ns/inc  vs single
+single             0.38       1.0x         6.33       1.0x
+adjacent           0.38       1.0x        23.55       3.7x
+padded64           0.33       0.9x         5.90       0.9x
+padded128          0.32       0.8x         5.85       0.9x
